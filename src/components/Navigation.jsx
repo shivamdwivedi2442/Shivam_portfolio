@@ -71,7 +71,7 @@ export default function Navigation({ isDark, toggleTheme, isMenuOpen, setIsMenuO
               >
                 <span className={`w-1.5 h-1.5 rounded-full ${link.dot}`}></span>
                 {link.label}
-                <span className="text-gray-400 dark:text-gray-600">.jsx</span>
+                <span className="text-gray-400 dark:text-gray-600"></span>
               </Link>
             ))}
           </div>
