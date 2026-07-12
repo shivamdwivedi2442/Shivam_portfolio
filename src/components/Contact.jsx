@@ -77,7 +77,7 @@ export default function Contact() {
               </a>
 
               <a
-                href="tel:+919344183002"
+                href="tel:+91979516XXXX"
                 className="flex items-start gap-4 p-4 rounded-lg hover:bg-fuchsia-50 dark:hover:bg-fuchsia-900/20 transition-colors group"
               >
                 <div className="p-3 bg-gradient-to-br from-fuchsia-500 to-teal-400 rounded-lg text-white group-hover:scale-110 transition-transform flex-shrink-0">

@@ -73,7 +73,7 @@ export default function Skills() {
               <div key={row.label}>
                 <div className="flex justify-between items-center mb-2">
                   <span className="font-semibold text-gray-800 dark:text-gray-200">{row.label}</span>
-                  <span className="font-mono font-bold text-amber-600 dark:text-fuchsia-400">{row.value}%</span>
+                  <span className="font-mono font-bold text-fuchsia-600 dark:text-fuchsia-400">{row.value}%</span>
                 </div>
                 <div className="h-2 bg-gray-200 dark:bg-gray-700 rounded-full overflow-hidden">
                   <div className="h-full bg-gradient-to-r from-fuchsia-500 to-teal-400" style={{ width: `${row.value}%` }}></div>

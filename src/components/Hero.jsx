@@ -15,7 +15,7 @@ const SocialLinks = ({ centered = false }) => (
         href={link.href}
         target={!link.email ? '_blank' : undefined}
         rel={!link.email ? 'noopener noreferrer' : undefined}
-        className="p-3 rounded-lg hover:bg-amber-100 dark:hover:bg-amber-900/30 text-gray-600 dark:text-gray-400 hover:text-amber-600 dark:hover:text-amber-400 transition-colors cursor-pointer"
+        className="p-3 rounded-lg hover:bg-fuchsia-100 dark:hover:bg-fuchsia-900/30 text-gray-600 dark:text-gray-400 hover:text-fuchsia-600 dark:hover:text-fuchsia-400 transition-colors cursor-pointer"
         aria-label={link.label}
       >
         <link.icon size={24} />
@@ -57,7 +57,7 @@ const CodeCard = () => (
 
 export default function Hero() {
   return (
-    <section className="relative pt-32 pb-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-amber-50 to-white dark:from-dark-surface dark:to-dark-bg overflow-hidden">
+    <section className="relative pt-32 pb-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-fuchsia-50 to-white dark:from-dark-surface dark:to-dark-bg overflow-hidden">
       <div className="absolute inset-0 dot-grid text-gray-900 dark:text-gray-100 opacity-[0.04] pointer-events-none"></div>
 
       <div className="relative max-w-6xl mx-auto">
@@ -65,8 +65,8 @@ export default function Hero() {
         <div className="md:hidden space-y-8 mb-4 animate-fadeIn">
           <div className="flex justify-center items-center">
             <div className="relative w-56 h-56 mt-2 p-2">
-              <div className="absolute inset-0 rounded-full bg-gradient-to-br from-amber-400 to-teal-400 opacity-25 blur-3xl"></div>
-              <div className="relative w-full h-full rounded-full overflow-hidden border-4 border-amber-100 dark:border-gray-700 shadow-xl">
+              <div className="absolute inset-0 rounded-full bg-gradient-to-br from-fuchsia-400 to-teal-400 opacity-25 blur-3xl"></div>
+              <div className="relative w-full h-full rounded-full overflow-hidden border-4 border-fuchsia-100 dark:border-gray-700 shadow-xl">
                 <img src="/photo.jpg" alt="Shivam Dwivedi" className="w-full h-full object-cover object-center" />
               </div>
             </div>
@@ -92,7 +92,7 @@ export default function Hero() {
               <Link to="projects" smooth={true} duration={500} className="inline-flex items-center justify-center gap-2 px-6 py-3 gradient-btn rounded-lg cursor-pointer transform hover:scale-[1.02] transition-transform">
                 View My Work <FiArrowRight />
               </Link>
-              <Link to="contact" smooth={true} duration={500} className="inline-flex items-center justify-center gap-2 px-6 py-3 border-2 border-amber-600 dark:border-amber-400 text-amber-600 dark:text-amber-400 rounded-lg hover:bg-amber-50 dark:hover:bg-amber-900/20 cursor-pointer transition-colors">
+              <Link to="contact" smooth={true} duration={500} className="inline-flex items-center justify-center gap-2 px-6 py-3 border-2 border-fuchsia-600 dark:border-fuchsia-400 text-fuchsia-600 dark:text-fuchsia-400 rounded-lg hover:bg-fuchsia-50 dark:hover:bg-fuchsia-900/20 cursor-pointer transition-colors">
                 Get in Touch
               </Link>
             </div>
@@ -120,7 +120,7 @@ export default function Hero() {
               <Link to="projects" smooth={true} duration={500} className="inline-flex items-center gap-2 px-6 py-3 gradient-btn rounded-lg cursor-pointer transform hover:scale-[1.02] transition-transform">
                 View My Work <FiArrowRight />
               </Link>
-              <Link to="contact" smooth={true} duration={500} className="inline-flex items-center gap-2 px-6 py-3 border-2 border-fuchsia-600 dark:border-fuchsia-600 text-fuchsia-600 dark:text-fuchsia-600 rounded-lg hover:bg-black-500 dark:hover:bg-amber-900/20 cursor-pointer transition-colors">
+              <Link to="contact" smooth={true} duration={500} className="inline-flex items-center gap-2 px-6 py-3 border-2 border-fuchsia-600 dark:border-fuchsia-600 text-fuchsia-600 dark:text-fuchsia-600 rounded-lg hover:bg-black-500 dark:hover:bg-fuchsia-900/20 cursor-pointer transition-colors">
                 Get in Touch
               </Link>
             </div>
@@ -132,7 +132,7 @@ export default function Hero() {
             <CodeCard />
             <div className="flex justify-center">
               <div className="relative w-40 h-40">
-                <div className="absolute inset-0 rounded-full bg-gradient-to-br from-amber-400 to-teal-400 opacity-20 blur-2xl"></div>
+                <div className="absolute inset-0 rounded-full bg-gradient-to-br from-fuchsia-400 to-teal-400 opacity-20 blur-2xl"></div>
                 <div className="relative w-full h-full rounded-full overflow-hidden glow">
                   <img src="/photo.jpg" alt="Shivam Dwivedi" className="w-full h-full object-cover object-center glow" />
                 </div>
