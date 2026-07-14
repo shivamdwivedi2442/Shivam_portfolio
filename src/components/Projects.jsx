@@ -19,7 +19,7 @@ export default function Projects() {
       tech: ['MERN Stack', 'JWT Auth', 'MongoDB', 'REST APIs'],
       image: '📚',
       link: '',
-      github: 'https://github.com/SRIKANTH-0001/MERN-ELearning-Platform',
+      github: 'https://www.instagram.com/lucky47ig',
       featured: true
     },
     {
@@ -28,8 +28,8 @@ export default function Projects() {
       description: 'Responsive web application for college Debugging Challenge event. Designed clean, user-friendly interface centralizing event information with seamless navigation to HackerRank contest links. Focused on responsive design and smooth navigation.',
       tech: ['HTML', 'CSS', 'JavaScript'],
       image: '🐛',
-      link: 'https://debuggingsite.netlify.app/',
-      github: 'https://github.com/SRIKANTH-0001/Debugging-Site',
+      link: 'https://www.instagram.com/lucky47ig',
+      github: 'https://github.com/Lucky783594/',
       featured: false
     },
     {
@@ -39,7 +39,7 @@ export default function Projects() {
       tech: ['React.js', 'YouTube API', 'React Router', 'Axios', 'CSS3'],
       image: '📺',
       link: '',
-      github: 'https://github.com/SRIKANTH-0001/Youtube-Clone-ReactJS',
+      github: 'https://github.com/Lucky783594',
       featured: false
     }
   ]
