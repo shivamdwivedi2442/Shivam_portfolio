@@ -15,7 +15,7 @@ export default function Footer() {
               <span className="font-display font-bold gradient-text">Shivam coder</span>
             </a>
             <p className="text-gray-400 text-sm">
-              Full Stack Developer crafting beautiful and functional web experiences.
+              Learning Full Stack Developer crafting beautiful and functional web experiences.
             </p>
           </div>
 
