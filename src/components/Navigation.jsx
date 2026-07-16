@@ -3,9 +3,9 @@ import { Link } from 'react-scroll'
 
 const navLinks = [
   { label: 'About', file: 'About.jsx', dot: 'bg-amber-500' },
-  { label: 'Projects', file: 'Projects.jsx', dot: 'bg-teal-500' },
+  // { label: 'Projects', file: 'Projects.jsx', dot: 'bg-teal-500' },
   { label: 'Skills', file: 'Skills.jsx', dot: 'bg-violet-400' },
-  { label: 'Experience', file: 'Experience.jsx', dot: 'bg-amber-500' },
+  // { label: 'Experience', file: 'Experience.jsx', dot: 'bg-amber-500' },
   { label: 'Contact', file: 'Contact.jsx', dot: 'bg-teal-500' },
 ]
 
@@ -35,9 +35,7 @@ export default function Navigation({ isDark, toggleTheme, isMenuOpen, setIsMenuO
             ))}
           </div>
 
-          {/* Right side controls */}
           <div className="flex items-center gap-4">
-            {/* Theme Toggle */}
             <button
               onClick={toggleTheme}
               className="p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors"
@@ -46,7 +44,6 @@ export default function Navigation({ isDark, toggleTheme, isMenuOpen, setIsMenuO
               {isDark ? <FiSun size={20} /> : <FiMoon size={20} />}
             </button>
 
-            {/* Mobile Menu Button */}
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
               className="md:hidden p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors"
@@ -57,7 +54,6 @@ export default function Navigation({ isDark, toggleTheme, isMenuOpen, setIsMenuO
           </div>
         </div>
 
-        {/* Mobile Navigation */}
         {isMenuOpen && (
           <div className="md:hidden pb-4 space-y-1 animate-slideUp">
             {navLinks.map((link) => (
