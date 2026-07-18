@@ -11,7 +11,7 @@ import Navigation from './components/Navigation'
 import './index.css'
 
 export default function App() {
-  const [isDark, setIsDark] = useState(false)
+  const [isDark, setIsDark] = useState(True)
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
   useEffect(() => {
