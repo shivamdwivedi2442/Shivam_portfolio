@@ -1,5 +1,6 @@
 import { FiArrowRight, FiGithub, FiLinkedin, FiMail } from 'react-icons/fi'
-import { Link } from 'react-scroll'
+import { Link } from 'react-scroll';
+import Typewriter from 'typewriter-effect';
 
 const socialLinks = [
   { href: 'https://github.com/Lucky783594', icon: FiGithub, label: 'GitHub' },
@@ -45,9 +46,9 @@ const CodeCard = () => (
     <div className="p-5 leading-relaxed text-gray-300 overflow-x-auto">
       <p><span className="text-[#b4a7f5]">const</span> <span className="text-[#5eead4]">developer</span> <span className="text-gray-500">=</span> {'{'}</p>
       <p className="pl-4"><span className="text-gray-400">name:</span> <span className="text-[#f6ad55]">"Shivam Dwivedi"</span>,</p>
-      <p className="pl-4"><span className="text-gray-400">role:</span> <span className="text-[#f6ad55]">"MERN Full Stack Developer"</span>,</p>
+      <p className="pl-4"><span className="text-gray-400">role:</span> <span className="text-[#f6ad55]">"Frontend Developer"</span>,</p>
       <p className="pl-4">
-        <span className="text-gray-400">stack:</span> [<span className="text-[#f6ad55]">"React"</span>, <span className="text-[#f6ad55]">"Node"</span>, <span className="text-[#f6ad55]">"Express"</span>, <span className="text-[#f6ad55]">"MongoDB"</span>],
+        <span className="text-gray-400">stack:</span> [<span className="text-[#f6ad55]">"React"</span>, <span className="text-[#f6ad55]">"JavaScript"</span>, <span className="text-[#f6ad55]">"Tailwind"</span>, <span className="text-[#f6ad55]">"CSS3"</span>],
       </p>
       <p className="pl-4"><span className="text-gray-400">status:</span> <span className="text-[#f6ad55]">"available for internships & full-time roles"</span></p>
       <p>{'}'}<span className="cursor-blink text-grey-400">▍</span></p>
@@ -78,12 +79,30 @@ export default function Hero() {
               <h1 className="text-5xl font-display font-extrabold">
                 <span className="gradient-text">Shivam Dwivedi</span>
               </h1>
-              <p className="text-xl text-gray-600 dark:text-gray-300 font-medium">MERN Full Stack Developer</p>
+              <div className="text-2xl font-medium text-gray-700 dark:text-gray-300 flex items-center gap-2">
+                <span>I'm a</span>
+
+                <span className="text-fuchsia-600 font-semibold">
+                  <Typewriter
+                    options={{
+                      strings: [
+                        'Frontend Developer',
+                        'React.js Developer',
+                        'Learning Fullstack'
+                      ],
+                      autoStart: true,
+                      loop: true,
+                      deleteSpeed: 50,
+                      delay: 75,
+                    }}
+                  />
+                </span>
+              </div>
               <div className="flex justify-center pt-1"><StatusBadge /></div>
             </div>
 
             <p className="text-lg text-gray-600 dark:text-gray-400 leading-relaxed">
-              I build responsive, user-centric web applications end to end — from interfaces people enjoy using to the APIs and databases behind them.
+              I specialize in building responsive, accessible, and user-centric web interfaces, transforming ideas into engaging digital experiences.
             </p>
 
             <CodeCard />
@@ -108,12 +127,30 @@ export default function Hero() {
               <h1 className="text-5xl md:text-6xl font-display font-extrabold leading-tight">
                 <span className="gradient-text">Shivam Dwivedi</span>
               </h1>
-              <p className="text-2xl text-gray-600 dark:text-gray-300 font-medium">MERN Full Stack Developer</p>
+              <div className="text-2xl font-medium text-gray-700 dark:text-gray-300 flex items-center gap-2">
+                <span>I'm a</span>
+
+                <span className="text-fuchsia-600 font-semibold">
+                  <Typewriter
+                    options={{
+                      strings: [
+                        'Frontend Developer',
+                        'React.js Developer',
+                        'Learning Fullstack'
+                      ],
+                      autoStart: true,
+                      loop: true,
+                      deleteSpeed: 50,
+                      delay: 75,
+                    }}
+                  />
+                </span>
+              </div>
               <div className="pt-1"><StatusBadge /></div>
             </div>
 
             <p className="text-lg text-gray-600 dark:text-gray-400 leading-relaxed max-w-lg">
-              I build responsive, user-centric web applications end to end — from interfaces people enjoy using to the APIs and databases behind them.
+              I specialize in building responsive, accessible, and user-centric web interfaces, transforming ideas into engaging digital experiences.
             </p>
 
             <div className="flex flex-wrap gap-4 pt-2">

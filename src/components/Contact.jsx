@@ -64,7 +64,7 @@ export default function Contact() {
 
             <div className="space-y-6">
               <a
-                href="mailto:4u.fearedits@gmail.com"
+                href="mailto:shivamdwivedi2442@gmail.com"
                 className="flex items-start gap-4 p-4 rounded-lg hover:bg-fuchsia-50 dark:hover:bg-fuchsia-900/20 transition-colors group"
               >
                 <div className="p-3 bg-gradient-to-br from-fuchsia-500 to-teal-400 rounded-lg text-white group-hover:scale-110 transition-transform flex-shrink-0">
@@ -72,12 +72,12 @@ export default function Contact() {
                 </div>
                 <div>
                   <p className="font-semibold text-gray-900 dark:text-white">Email</p>
-                  <p className="text-gray-600 dark:text-gray-400">4u.fearedits@gmail.com</p>
+                  <p className="text-gray-600 dark:text-gray-400">shivamdwivedi2442@gmail.com</p>
                 </div>
               </a>
 
               <a
-                href="tel:+91979516XXXX"
+                href="tel:+919795167984"
                 className="flex items-start gap-4 p-4 rounded-lg hover:bg-fuchsia-50 dark:hover:bg-fuchsia-900/20 transition-colors group"
               >
                 <div className="p-3 bg-gradient-to-br from-fuchsia-500 to-teal-400 rounded-lg text-white group-hover:scale-110 transition-transform flex-shrink-0">
@@ -85,7 +85,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <p className="font-semibold text-gray-900 dark:text-white">Phone</p>
-                  <p className="text-gray-600 dark:text-gray-400">+91 979516XXXX</p>
+                  <p className="text-gray-600 dark:text-gray-400">+91 9795167984</p>
                 </div>
               </a>
 

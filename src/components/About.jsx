@@ -9,15 +9,15 @@ export default function About() {
         <div className="grid md:grid-cols-2 gap-12 items-center mb-12">
           <div className="space-y-6 animate-slideInLeft">
             <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
-              I'm <span className="font-semibold text-fuchsia-600 dark:text-fuchsia-400">Shivam Dwivedi</span>, a Full Stack Web Developer passionate about building responsive, scalable web applications using the <span className="font-semibold">MERN Stack</span>.
+              I'm <span className="font-semibold text-fuchsia-600 dark:text-fuchsia-400">Shivam Dwivedi</span>, a passionate <span className="font-semibold">Frontend Developer</span> dedicated to building responsive, accessible, and highly interactive user interfaces.
             </p>
 
             <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
-              I specialize in <span className="font-semibold">React.js, Node.js, Express.js, MongoDB</span>, REST APIs, and have a strong foundation in Java, JavaScript, HTML, CSS, and modern web development.
+              I specialize in <span className="font-semibold">React.js, JavaScript, HTML5, CSS3, and Tailwind CSS</span>. I have a keen eye for modern UI/UX design and a strong foundation in integrating RESTful APIs to bring web applications to life.
             </p>
 
             <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
-              I've developed real-world projects like a Doctor Appointment Booking System and an E-Learning Platform, and I'm eager to contribute, learn, and grow as a software engineer.
+              I've developed intuitive frontend experiences for real-world projects like a Doctor Appointment Booking System and an E-Learning Platform, and I'm eager to contribute, learn, and grow as a frontend engineer.
             </p>
 
             <div className="flex flex-wrap gap-4 pt-6">
@@ -35,25 +35,6 @@ export default function About() {
               >
                 View LinkedIn <FiExternalLink />
               </a>
-            </div>
-          </div>
-
-          <div className="grid grid-cols-2 gap-6 animate-slideInRight">
-            <div className="card card-hover text-center p-8">
-              <div className="text-4xl font-display font-bold gradient-text mb-2">4+</div>
-              <p className="text-gray-600 dark:text-gray-400 font-medium">Real-world Projects</p>
-            </div>
-            <div className="card card-hover text-center p-8">
-              <div className="text-4xl font-display font-bold gradient-text mb-2">100+</div>
-              <p className="text-gray-600 dark:text-gray-400 font-medium">LeetCode Problems</p>
-            </div>
-            <div className="card card-hover text-center p-8">
-              <div className="text-4xl font-display font-bold gradient-text mb-2">4</div>
-              <p className="text-gray-600 dark:text-gray-400 font-medium">Certifications</p>
-            </div>
-            <div className="card card-hover text-center p-8">
-              <div className="text-4xl font-display font-bold gradient-text mb-2">8.47</div>
-              <p className="text-gray-600 dark:text-gray-400 font-medium">College CGPA</p>
             </div>
           </div>
         </div>

@@ -49,13 +49,13 @@ export default function Footer() {
             <h4 className="font-display font-semibold mb-4">Contact</h4>
             <ul className="space-y-2 text-sm">
               <li>
-                <a href="mailto:4u.fearedits@gmail.com" className="text-gray-400 hover:text-white transition-colors">
+                <a href="mailto:shivamdwivedi2442@gmail.com" className="text-gray-400 hover:text-white transition-colors">
                   Email
                 </a>
               </li>
               <li>
-                <a href="tel:+91979516XXXX" className="text-gray-400 hover:text-white transition-colors">
-                  +91 979516XXXX
+                <a href="tel:+919795167984" className="text-gray-400 hover:text-white transition-colors">
+                  +91 9795167984
                 </a>
               </li>
               <li>
@@ -86,7 +86,7 @@ export default function Footer() {
                 <FiLinkedin size={20} />
               </a>
               <a
-                href="mailto:4u.fearedits@gmail.com"
+                href="mailto:shivamdwivedi2442@gmail.com"
                 className="p-2 bg-gray-800 hover:bg-fuchsia-600 rounded-lg transition-colors"
                 aria-label="Email"
               >

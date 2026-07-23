@@ -4,11 +4,11 @@ export default function Skills() {
       color: 'from-teal-400 to-teal-600',
       items: ['React.js', 'HTML5', 'CSS3', 'JavaScript (ES6+)', 'Tailwind CSS', 'Responsive Design']
     },
-    'Backend': {
+    'Backend ["Learning"]': {
       color: 'from-amber-400 to-amber-600',
       items: ['Express.js', 'JWT Authentication', 'Middleware']
     },
-    'Database': {
+    'Database ["Learning"]': {
       color: 'from-violet-400 to-violet-600',
       items: ['MongoDB', 'Database Design']
     },
@@ -20,16 +20,16 @@ export default function Skills() {
       color: 'from-sky-400 to-sky-600',
       items: ['Git', 'GitHub', 'VS Code', 'Postman', 'Render', 'vercel', 'MongoDB Atlas']
     },
-    'Other Skills': {
+    'Other Skills ["Learning"]': {
       color: 'from-emerald-400 to-emerald-600',
       items: ['Problem Solving', 'Deployment']
     }
   }
 
   const expertise = [
-    { label: 'MERN Stack (React, Node.js, MongoDB)', value: 85 },
-    { label: 'Frontend Development', value: 95 },
-    { label: 'Backend Development', value: 65 },
+    { label: 'MERN Stack (React, Node.js, MongoDB)', value: 40 },
+    { label: 'Frontend Development', value: 98 },
+    { label: 'Backend Development', value: 30 },
     { label: 'Problem Solving & DSA', value: 5 },
   ]
 

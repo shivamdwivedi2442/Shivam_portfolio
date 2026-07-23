@@ -5,7 +5,7 @@ const navLinks = [
   { label: 'About', file: 'About.jsx', dot: 'bg-amber-500' },
   // { label: 'Projects', file: 'Projects.jsx', dot: 'bg-teal-500' },
   { label: 'Skills', file: 'Skills.jsx', dot: 'bg-violet-400' },
-  // { label: 'Experience', file: 'Experience.jsx', dot: 'bg-amber-500' },
+  { label: 'Experience', file: 'Experience.jsx', dot: 'bg-amber-500' },
   { label: 'Contact', file: 'Contact.jsx', dot: 'bg-teal-500' },
 ]
 
