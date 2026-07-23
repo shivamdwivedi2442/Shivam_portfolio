@@ -108,9 +108,6 @@ export default function Hero() {
             <CodeCard />
 
             <div className="flex flex-col gap-4 pt-2">
-              <Link to="projects" smooth={true} duration={500} className="inline-flex items-center justify-center gap-2 px-6 py-3 gradient-btn rounded-lg cursor-pointer transform hover:scale-[1.02] transition-transform">
-                View My Work <FiArrowRight />
-              </Link>
               <Link to="contact" smooth={true} duration={500} className="inline-flex items-center justify-center gap-2 px-6 py-3 border-2 border-fuchsia-600 dark:border-fuchsia-400 text-fuchsia-600 dark:text-fuchsia-400 rounded-lg hover:bg-fuchsia-50 dark:hover:bg-fuchsia-900/20 cursor-pointer transition-colors">
                 Get in Touch
               </Link>
@@ -154,9 +151,6 @@ export default function Hero() {
             </p>
 
             <div className="flex flex-wrap gap-4 pt-2">
-              <Link to="projects" smooth={true} duration={500} className="inline-flex items-center gap-2 px-6 py-3 gradient-btn rounded-lg cursor-pointer transform hover:scale-[1.02] transition-transform">
-                View My Work <FiArrowRight />
-              </Link>
               <Link to="contact" smooth={true} duration={500} className="inline-flex items-center gap-2 px-6 py-3 border-2 border-fuchsia-600 dark:border-fuchsia-600 text-fuchsia-600 dark:text-fuchsia-600 rounded-lg hover:bg-black-500 dark:hover:bg-fuchsia-900/20 cursor-pointer transition-colors">
                 Get in Touch
               </Link>
