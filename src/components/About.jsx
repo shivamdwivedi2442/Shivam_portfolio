@@ -21,7 +21,7 @@ export default function About() {
             </p>
 
             <div className="flex flex-wrap gap-4 pt-6">
-              <a href="/resume.pdf"
+              <a href="/Shivam_Dwivedi_Resume.pdf"
                 download="Shivam_Dwivedi_Resume.pdf"
                 className="inline-flex items-center gap-2 px-6 py-3 gradient-btn rounded-lg hover:shadow-lg hover:shadow-fuchsia-500/30 transition-all transform hover:scale-105 font-medium"
               >
